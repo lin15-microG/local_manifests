@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Forked Jelly Browser -->
+  <remove-project name="LineageOS/android_packages_apps_Jelly" />
+  <project path="packages/apps/Jelly" name="cm13-microG/android_packages_apps_Jelly" />  
+
+  <!-- microG Build, prebuilt apks -->
+  <project path="prebuilts/prebuiltapks" 
+           name="lineageos4microg/android_prebuilts_prebuiltapks" 
+           clone-depth="1" revision="master" />
+
+  <!-- Privacy friendly netmonitor -->
+  <project path="external/privacy-friendly-netmonitor"
+           name="cm13-microG/privacy-friendly-netmonitor-prebuilt"
+           clone-depth="1" revision="master" />
+
+  <!-- Patches & root-scripts Directory -->
+  <project path="z_patches" name="cm13-microG/z_patches" />
+  <project path="z_patches/root-scripts" name="cm13-microG/root-scripts" />
+
+  <!-- Replaced/enhanced Repositories -->
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <project path="frameworks/base" name="cm13-microG/android_frameworks_base" />
+  <remove-project name="LineageOS/android_frameworks_native" />
+  <project path="frameworks/native" name="cm13-microG/android_frameworks_native" />  
+  <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="cm13-microG/android_packages_apps_Settings" />  
+  <remove-project name="LineageOS/android_system_sepolicy" />
+  <project path="system/sepolicy" name="cm13-microG/android_system_sepolicy" />  
+  <remove-project name="LineageOS/android_vendor_lineage" />
+  <project path="vendor/lineage" name="cm13-microG/android_vendor_lineage" />  
+ 
+</manifest> 
+
