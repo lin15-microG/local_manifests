@@ -11,8 +11,8 @@
            clone-depth="1" revision="master" />
 
   <!-- Privacy friendly netmonitor -->
-  <project path="external/privacy-friendly-netmonitor"
-           name="cm13-microG/privacy-friendly-netmonitor-prebuilt"
+  <project path="external/secuso/privacy-friendly-netmonitor"
+           name="MSe1969/privacy-friendly-netmonitor-prebuilt"
            clone-depth="1" revision="master" />
 
   <!-- Patches & root-scripts Directory -->
