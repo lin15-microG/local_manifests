@@ -21,11 +21,11 @@
 
   <!-- Replaced/enhanced Repositories -->
   <remove-project name="LineageOS/android_frameworks_base" />
-  <project path="frameworks/base" name="cm13-microG/android_frameworks_base" revision="lin-15.1-microG" />
+  <project path="frameworks/base" name="lin15-microG/android_frameworks_base" revision="lin-15.1-microG" />
   <remove-project name="LineageOS/android_frameworks_native" />
-  <project path="frameworks/native" name="cm13-microG/android_frameworks_native" revision="lin-15.1-microG" />  
+  <project path="frameworks/native" name="lin15-microG/android_frameworks_native" revision="lin-15.1-microG" />  
   <remove-project name="LineageOS/android_packages_apps_Settings" />
-  <project path="packages/apps/Settings" name="cm13-microG/android_packages_apps_Settings" revision="lin-15.1-microG" />  
+  <project path="packages/apps/Settings" name="lin15-microG/android_packages_apps_Settings" revision="lin-15.1-microG" />  
   <remove-project name="LineageOS/android_system_sepolicy" />
   <project path="system/sepolicy" name="lin15-microG/android_system_sepolicy" revision="lin-15.1-microG" />  
   <remove-project name="LineageOS/android_vendor_lineage" />
