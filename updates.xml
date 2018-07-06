@@ -29,7 +29,7 @@
   <remove-project name="LineageOS/android_system_sepolicy" />
   <project path="system/sepolicy" name="cm13-microG/android_system_sepolicy" />  
   <remove-project name="LineageOS/android_vendor_lineage" />
-  <project path="vendor/lineage" name="cm13-microG/android_vendor_lineage" />  
- 
+  <project path="vendor/lineage" name="lin15-microG/android_vendor_lineage" />  
+
 </manifest> 
 
