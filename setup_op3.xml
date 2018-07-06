@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Caesium Kernel -->
+  <project path="kernel/oneplus/op3-caesium" name="MSF-Jarvis/oneplus3" revision="refs/tags/OleophobicOlive" />  
+
+ 
+</manifest> 
+
