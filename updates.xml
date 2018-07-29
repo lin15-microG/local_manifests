@@ -26,6 +26,8 @@
   <project path="frameworks/native" name="lin15-microG/android_frameworks_native" revision="lin-15.1-microG" />  
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <project path="packages/apps/Settings" name="lin15-microG/android_packages_apps_Settings" revision="lin-15.1-microG" />  
+  <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
+  <project path="packages/apps/Trebuchet" name="lin15-microG/android_packages_apps_Trebuchet" revision="lin-15.1-microG" />  
   <remove-project name="LineageOS/android_system_sepolicy" />
   <project path="system/sepolicy" name="lin15-microG/android_system_sepolicy" revision="lin-15.1-microG" />  
   <remove-project name="LineageOS/android_vendor_lineage" />
