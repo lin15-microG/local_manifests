@@ -2,8 +2,11 @@
 <manifest>
 
   <!-- Caesium Kernel -->
-  <project path="kernel/oneplus/op3-caesium" name="MSF-Jarvis/oneplus3" revision="refs/tags/OleophobicOlive" />  
+  <!--project path="kernel/oneplus/op3-caesium" name="MSF-Jarvis/oneplus3" revision="refs/tags/OleophobicOlive" /-->  
 
+  <!-- Kernel fork from LineageOS -->
+  <remove-project name="LineageOS/android_kernel_oneplus_msm8996" />
+  <project name="lin15-microG/android_kernel_oneplus_msm8996" path="kernel/oneplus/msm8996" remote="github" revision="lin-15.1-microG"/>
  
 </manifest> 
 
