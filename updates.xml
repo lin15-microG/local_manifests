@@ -26,8 +26,6 @@
   <project path="frameworks/native" name="lin15-microG/android_frameworks_native" />  
   <remove-project name="LineageOS/android_packages_apps_Camera2" />
   <project path="packages/apps/Camera2" name="lin15-microG/android_packages_apps_Camera2" />  
-  <remove-project name="LineageOS/android_packages_apps_DeskClock" />
-  <project path="packages/apps/DeskClock" name="lin15-microG/android_packages_apps_DeskClock" />  
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <project path="packages/apps/Settings" name="lin15-microG/android_packages_apps_Settings" />  
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
