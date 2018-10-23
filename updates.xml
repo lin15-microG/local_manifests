@@ -28,6 +28,8 @@
   <project path="packages/apps/Camera2" name="lin15-microG/android_packages_apps_Camera2" revision="lin-15.1-microG" />  
   <remove-project name="LineageOS/android_packages_apps_Dialer" />
   <project path="packages/apps/Dialer" name="lin15-microG/android_packages_apps_Dialer" revision="lin-15.1-microG" />  
+  <remove-project name="LineageOS/android_packages_apps_Eleven" />
+  <project path="packages/apps/Eleven" name="lin15-microG/android_packages_apps_Eleven" revision="lin-15.1-microG" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <project path="packages/apps/Settings" name="lin15-microG/android_packages_apps_Settings" revision="lin-15.1-microG" />  
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
