@@ -3,7 +3,7 @@
   <project name="lin15-microG/device_sony_amami" path="device/sony/amami" revision="lineage-15.1" />
   <project name="AICP/device_sony_rhine-common" path="device/sony/rhine-common" revision="o8.1" />
   <project name="AICP/device_sony_msm8974-common" path="device/sony/msm8974-common" revision="o8.1" />
-  <project name="lin15-microG/kernel_sony_msm8974" path="kernel/sony/msm8974" revision="o8.1" />
+  <project name="lin15-microG/kernel_sony_msm8974" path="kernel/sony/msm8974" revision="lineage-15.1" />
   <project name="sonyxperiadev/boringssl-compat" path="external/sony/boringssl-compat" revision="master" />
   <project name="LineageOS/android_device_sony_common" path="device/sony/common-caf" revision="lineage-15.1" />
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" revision="lineage-15.1" />
