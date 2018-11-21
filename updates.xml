@@ -45,6 +45,10 @@
   <project path="system/sepolicy" name="lin15-microG/android_system_sepolicy" revision="lin-15.1-microG" />  
   <remove-project name="LineageOS/android_vendor_lineage" />
   <project path="vendor/lineage" name="lin15-microG/android_vendor_lineage" revision="lin-15.1-microG" />  
- 
+
+  <!-- Backport of critical CVE-2018-9531, CVE-2018-9536, CVE-2018-9537 from 'pie' to lower releases -->
+  <remove-project name="platform/external/aac" />
+  <project path="external/aac" name="lin15-microG/android_external_aac" />
+
 </manifest> 
 
