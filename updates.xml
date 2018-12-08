@@ -15,6 +15,9 @@
            name="MSe1969/privacy-friendly-netmonitor-prebuilt"
            clone-depth="1" revision="master" />
 
+  <!-- Bromite SystemWebView prebuilt-->
+  <project path="external/bromite-webview" name="MSe1969/android_external_bromite-webview" revision="master" />
+
   <!-- YalpStore prebuilt-->
   <project path="prebuilts/yalpstore" name="MSe1969/YalpStore-prebuilt" revision="master" />
 
