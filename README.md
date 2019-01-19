@@ -1,7 +1,7 @@
 # local_manifests
-LineageOS 15.1 f. amami and oneplus3 - hardened micgoG build
+LineageOS 15.1 f. amami and oneplus3 - hardened microG build
 
-## How launch a lineage-15.1 build:
+## How launch a lineage-15.1 build (microG build variant):
 Make sure you have checked out the 'lin-15.1-microG' branch in the local_manifests repo and synched
 ```Shell session
 make clean
