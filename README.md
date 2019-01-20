@@ -22,3 +22,6 @@ cd ../..
 repo sync --no-tags
 ```
 Note: If you use a MAC to build, omit the `-darwin` in above `repo init` statement.
+
+## Trouble shooting
+We have an own [thread on XDA](https://forum.xda-developers.com/sony-xperia-z1-compact/development/rom-lineageos-15-1-xperia-z1-compact-t3884247) - you should find solutions to your issues there or you are welcome to post new ones...
