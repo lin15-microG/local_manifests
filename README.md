@@ -1,5 +1,5 @@
 # local_manifests
-LineageOS 15.1 f. amami and oneplus3 - hardened microG build
+LineageOS 15.1 f. amami, gts210vewifi and oneplus3 - hardened microG build
 
 ## How launch a lineage-15.1 build (microG build variant):
 Make sure you have checked out the 'lin-15.1-microG' branch in the local_manifests repo and synched
@@ -9,7 +9,7 @@ repo sync --no-tags
 source build/envsetup.sh
 brunch $device
 ```
-where ***$device*** is either **amami** or **oneplus3**.
+where ***$device*** is either **amami**, **gts210vewifi** or **oneplus3**.
 
 ## How to initially set up your build tree:
 ```Shell session

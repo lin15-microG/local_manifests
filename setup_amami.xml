@@ -9,5 +9,6 @@
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" revision="lineage-15.1" />
   <project name="omnirom/android_hardware_sony_thermanager" path="hardware/sony/thermanager" revision="android-8.1" />
   <project name="omnirom/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" revision="android-8.1" />
-  <project name="omnirom/android_hardware_sony_timekeep" path="hardware/sony/timekeep" revision="android-8.1" />
+  <project name="lin15-microG/android_hardware_sony_timekeep" path="hardware/sony/timekeep-omni" revision="android-8.1" />
+  <project name="AICP/proprietary_vendor_sony" path="vendor/sony" revision="o8.1" remote="github" />
 </manifest> 
