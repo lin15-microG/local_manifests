@@ -1,5 +1,5 @@
 # local_manifests
-LineageOS 15.1 f. amami and oneplus3
+LineageOS 15.1 f. amami, gts210vewifi and oneplus3
 
 ## How launch a lineage-15.1 build:
 ```Shell session
@@ -8,7 +8,7 @@ repo sync --no-tags
 source build/envsetup.sh
 brunch $device
 ```
-where ***$device*** is either **amami** or **oneplus3**.
+where ***$device*** is either **amami**, **gts210vewifi** or **oneplus3**.
 
 ## How to initially set up your build tree:
 ```Shell session
