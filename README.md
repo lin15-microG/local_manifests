@@ -10,6 +10,8 @@ brunch $device
 ```
 where ***$device*** is either **amami**, **gts210vewifi** or **oneplus3**.
 
+Note: If the build fails with an assertion in loadlocale.c, it is likely [this problem](https://groups.google.com/forum/#!topic/android-building/0kzPnw3akxg). Work around it with `export LC_ALL=C` or `unset LANG` before running `brunch $device`.
+
 ## How to initially set up your build tree:
 ```Shell session
 repo init -u https://github.com/LineageOS/android.git -b lineage-15.1 --groups=all,-notdefault,-darwin,-x86,-mips
