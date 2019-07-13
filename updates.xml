@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Static OTA updater resource -->
+  <project path="OTA" name="lin15-microG/OTA" revision="lin-15.1-microG" />
+
   <!-- Forked Jelly Browser -->
   <remove-project name="LineageOS/android_packages_apps_Jelly" />
   <project path="packages/apps/Jelly" name="lin15-microG/android_packages_apps_Jelly" revision="lin-15.1-microG" />  
