@@ -63,4 +63,8 @@
   <remove-project name="platform/external/aac" />
   <project path="external/aac" name="lin15-microG/android_external_aac" />
 
+  <!-- Fix of SVOX -->
+  <remove-project name="platform/external/svox" />
+  <project path="external/svox" name="platform/external/svox" groups="pdk" remote="aosp" revision="refs/tags/android-8.1.0_r66" />
+
 </manifest>
