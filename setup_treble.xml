@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="lin15-microG/device_phh_treble" path="device/phh/treble" remote="github" />
+
+  <remove-project name="LineageOS/android_device_lineage_sepolicy" />
+  <project name="lin15-microG/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="github" revision="lin-15.1-treble" />
+</manifest> 
+
