@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="lin15-microG/device_phh_treble" path="device/phh/treble" remote="github" />
 
+  <!-- Replaced/enhanced Repositories for Treble -->
+  <remove-project name="LineageOS/android_build" />
+  <project path="build/make" name="lin15-microG/android_build" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
   <remove-project name="LineageOS/android_device_lineage_sepolicy" />
   <project name="lin15-microG/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="github" />
+  <remove-project name="LineageOS/android_external_selinux" />
+  <project path="external/selinux" name="lin15-microG/android_external_selinux" />
+  <remove-project name="LineageOS/android_packages_apps_LineageParts" />
+  <project path="packages/apps/LineageParts" name="lin15-microG/android_packages_apps_LineageParts" />
+
+  <!-- Additional Repositories needed for Treble -->
+  <project name="lin15-microG/device_phh_treble" path="device/phh/treble" remote="github" />
+  <project name="phhusson/vendor_vndk" path="vendor/vndk" remote="github" revision="master" /> 
+  <project name="phhusson/vendor_hardware_overlay" path="vendor/hardware_overlay" remote="github" revision="master" />
+  <project name="phhusson/vendor_interfaces" path="vendor/interfaces" remote="github" revision="master" />
+
 </manifest> 
 
