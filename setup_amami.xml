@@ -10,5 +10,5 @@
   <project name="omnirom/android_hardware_sony_thermanager" path="hardware/sony/thermanager" revision="android-8.1" />
   <project name="omnirom/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" revision="android-8.1" />
   <project name="lin15-microG/android_hardware_sony_timekeep" path="hardware/sony/timekeep-omni" revision="android-8.1" />
-  <project name="AICP/proprietary_vendor_sony" path="vendor/sony" revision="o8.1" remote="github" />
+  <project name="AICP/proprietary_vendor_sony" path="vendor/sony" revision="o8.1" remote="github" clone-depth="1" />
 </manifest> 
