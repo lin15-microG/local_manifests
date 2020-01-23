@@ -33,9 +33,9 @@
 
   <!-- Replaced/enhanced Repositories -->
   <remove-project name="LineageOS/android_frameworks_base" />
-  <project path="frameworks/base" name="lin15-microG/android_frameworks_base" revision="lin-15.1-microG" />
+  <project path="frameworks/base" name="lin15-microG/android_frameworks_base" revision="lin-15.1-treble" />
   <remove-project name="LineageOS/android_frameworks_native" />
-  <project path="frameworks/native" name="lin15-microG/android_frameworks_native" revision="lin-15.1-microG" />
+  <project path="frameworks/native" name="lin15-microG/android_frameworks_native" revision="lin-15.1-treble" />
   <remove-project name="LineageOS/android_packages_apps_Camera2" />
   <project path="packages/apps/Camera2" name="lin15-microG/android_packages_apps_Camera2" revision="lin-15.1-microG" />
   <remove-project name="LineageOS/android_packages_apps_Dialer" />
@@ -53,11 +53,11 @@
   <remove-project name="LineageOS/android_system_bt" />
   <project path="system/bt" name="lin15-microG/android_system_bt" revision="lin-15.1-microG" />
   <remove-project name="LineageOS/android_system_core" />
-  <project path="system/core" name="lin15-microG/android_system_core" revision="lin-15.1-microG" />
+  <project path="system/core" name="lin15-microG/android_system_core" revision="lin-15.1-treble" />
   <remove-project name="LineageOS/android_system_sepolicy" />
   <project path="system/sepolicy" name="lin15-microG/android_system_sepolicy" revision="lin-15.1-microG" />
   <remove-project name="LineageOS/android_vendor_lineage" />
-  <project path="vendor/lineage" name="lin15-microG/android_vendor_lineage" revision="lin-15.1-microG" />
+  <project path="vendor/lineage" name="lin15-microG/android_vendor_lineage" revision="lin-15.1-treble" />
 
   <!-- Backport of critical CVE-2018-9531, CVE-2018-9536, CVE-2018-9537 from 'pie' to lower releases -->
   <remove-project name="platform/external/aac" />

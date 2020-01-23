@@ -17,10 +17,10 @@
   <remove-project name="LineageOS/android_external_selinux" />
   <project path="external/selinux" name="lin15-microG/android_external_selinux" revision="lin-15.1-treble" />
   <remove-project name="LineageOS/android_packages_apps_LineageParts" />
-  <project path="packages/apps/LineageParts" name="lin15-microG/android_packages_apps_LineageParts" />
+  <project path="packages/apps/LineageParts" name="lin15-microG/android_packages_apps_LineageParts" revision="lin-15.1-treble" />
 
   <!-- Additional Repositories needed for Treble -->
-  <project name="lin15-microG/device_phh_treble" path="device/phh/treble" remote="github" />
+  <project name="lin15-microG/device_phh_treble" path="device/phh/treble" remote="github" revision="lin-15.1-eva-p9" />
   <project name="phhusson/vendor_vndk" path="vendor/vndk" remote="github" revision="master" /> 
   <project name="phhusson/vendor_hardware_overlay" path="vendor/hardware_overlay" remote="github" revision="master" />
   <project name="phhusson/vendor_interfaces" path="vendor/interfaces" remote="github" revision="master" />
