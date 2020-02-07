@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <!-- Additional device-independent repositories to build TWRP within the regular build tree -->
-  <project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" revision="android-8.1" />
-  <project name="omnirom/android_external_busybox" path="external/busybox" revision="android-8.1" />
-</manifest> 
