@@ -1,5 +1,5 @@
 # local_manifests
-LineageOS 15.1 f. amami, gts210vewifi and oneplus3 - hardened microG build
+Treble build variant
 
 ## How launch a lineage-15.1 build (treble build variant):
 Make sure you have checked out the 'lin-15.1-treble' branch in the local_manifests repo and synched
