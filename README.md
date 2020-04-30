@@ -9,7 +9,7 @@ repo sync --no-tags
 source build/envsetup.sh
 brunch $device
 ```
-where ***$device*** is either **amami**, **gts210vewifi** or **oneplus3**.
+where ***$device*** is either **amami**, **gts210vewifi**, **osprey** or **oneplus3**.
 
 Note: If the build fails with an assertion in loadlocale.c, it is likely [this problem](https://groups.google.com/forum/#!topic/android-building/0kzPnw3akxg). Work around it with `export LC_ALL=C` or `unset LANG` before running `brunch $device`.
 
